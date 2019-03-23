@@ -10,11 +10,6 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-
-// router.get("/", (req, res)=>{
-//     res.render("./public/index.html")
-// })
-
 // Start the API server
 const server = app.listen(PORT, function () {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
